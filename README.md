@@ -22,7 +22,6 @@ Para mais informações sobre a API, você pode acessar o repositório oficial d
 ## ✅ Critérios de Aceitação
 
 Este projeto avalia suas habilidades em React, aplicando conceitos fundamentais e boas práticas de desenvolvimento. Certifique-se de atender a todos os critérios abaixo para garantir uma aplicação funcional e bem estruturada.
-# Critérios de Aceitação
 
 ## 1. Consumo de Dados de uma API
 ### 1.1 Requisição
@@ -116,6 +115,23 @@ Este projeto avalia suas habilidades em React, aplicando conceitos fundamentais 
   - Exibição de dados.
   - Tratamento de erros.
   - Responsividade e organização do layout.
+ 
+  ## 🎨 Layout e Estilização
+
+O layout da aplicação é **de livre critério**, permitindo que você explore sua criatividade e aplique os conceitos de design aprendidos no curso. Sinta-se à vontade para buscar referências visuais em sites, aplicativos ou outras fontes de inspiração.
+
+### 💡 Dicas para Desenvolver o Layout
+- Reassista aos **encontros sobre design** para relembrar:
+  - Conceitos de **hierarquia visual**.
+  - Uso adequado de **espaçamento** e **tipografia**.
+  - Princípios de **design responsivo**.
+- Escolha cores e fontes que mantenham uma **boa legibilidade** e que estejam alinhadas ao tema escolhido.
+- Estruture os dados de forma organizada, usando:
+  - **Cartões (cards)** para itens individuais.
+  - **Grid ou lista** para exibir conjuntos de dados.
+
+Lembre-se de garantir que o design seja acessível, responsivo e agradável para o usuário. 🚀
+
 
  ### ✅ Checklist Básico para o Projeto
 
