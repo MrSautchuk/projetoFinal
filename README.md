@@ -115,8 +115,8 @@ Este projeto avalia suas habilidades em React, aplicando conceitos fundamentais 
   - Exibição de dados.
   - Tratamento de erros.
   - Responsividade e organização do layout.
- 
-  ## 🎨 Layout e Estilização
+  - 
+## 🎨 Layout e Estilização
 
 O layout da aplicação é **de livre critério**, permitindo que você explore sua criatividade e aplique os conceitos de design aprendidos no curso. Sinta-se à vontade para buscar referências visuais em sites, aplicativos ou outras fontes de inspiração.
 
@@ -133,7 +133,7 @@ O layout da aplicação é **de livre critério**, permitindo que você explore 
 Lembre-se de garantir que o design seja acessível, responsivo e agradável para o usuário. 🚀
 
 
- ### ✅ Checklist Básico para o Projeto
+### ✅ Checklist Básico para o Projeto
 
 - [ ] **O consumo da API funciona corretamente.**
   - A aplicação realiza requisições `GET` e consome os dados da API sem falhas.
