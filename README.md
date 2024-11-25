@@ -265,7 +265,63 @@ Se você está pronto para ir além e aprender mais sobre desenvolvimento web, a
   
 8. Documentação
 - Crie uma documentação clara para seu projeto, explicando como configurá-lo, executá-lo e como funcionam suas principais funcionalidades.
+- 
+## 🔗 Links Úteis para React
 
+Use esses recursos para aprimorar seus conhecimentos e resolver dúvidas durante o desenvolvimento!
+
+### 🌐 Documentação Oficial
+- [React - Documentação Oficial](https://reactjs.org/docs/getting-started.html)  
+  Guia completo para começar a desenvolver aplicações React, com explicações detalhadas sobre os principais conceitos e APIs.
+
+### 📚 Tutoriais e Guias
+- [React for Beginners - FreeCodeCamp](https://www.freecodecamp.org/news/react-beginner-handbook/)  
+  Um guia para iniciantes cobrindo os fundamentos do React.
+  
+- [ReactJS Cheatsheet](https://devhints.io/react)  
+  Um resumo rápido dos principais conceitos e APIs do React.
+
+### 🎥 Vídeos e Cursos
+- [React Basics - YouTube](https://www.youtube.com/watch?v=ttfRRdONvxM)  
+  Busque vídeos gratuitos que abordam desde os conceitos básicos.
+
+- [React com Vite](https://www.youtube.com/watch?v=1ZDbOkW5ITs)  
+  Uma playlist popular e bem explicada sobre React no YouTube.
+
+### 🛠️ Ferramentas e Recursos
+- [Create React App](https://create-react-app.dev/)  
+  Ferramenta oficial para configurar rapidamente um projeto React.
+
+- [Vite](https://vitejs.dev/)  
+  Uma alternativa moderna e super rápida para criar aplicações React.
+
+- [React Icons](https://react-icons.github.io/react-icons/)  
+  Biblioteca de ícones para integrar facilmente com React.
+
+- [Styled Components](https://styled-components.com/)  
+  Biblioteca para estilização no React usando JavaScript.
+
+### 🧪 Testes e Depuração
+- [React Developer Tools](https://react.dev/tools)  
+  Ferramenta oficial para depuração de componentes React no navegador.
+
+- [Jest - Testing Framework](https://jestjs.io/)  
+  Framework de testes para React e JavaScript.
+
+### 🏗️ Comunidade
+- [Stack Overflow - ReactJS](https://stackoverflow.com/questions/tagged/reactjs)  
+  Encontre respostas para dúvidas frequentes e problemas comuns no React.
+
+- [Reddit - ReactJS Community](https://www.reddit.com/r/reactjs/)  
+  Um espaço para discutir e aprender sobre React com outros desenvolvedores.
+
+### 🚀 Extras
+- [React Design Patterns](https://baguilar6174.medium.com/react-design-patterns-6ab55c5ebafb) 
+
+- [8 best practices + Folder Structure](https://medium.com/@kthamodaran/react-8-best-practices-folder-structure-5dbda48a69e)
+
+- [React Best Practices to Improve Your Code](https://medium.com/@onix_react/react-best-practices-to-improve-your-code-a4c68962d5dd)
+  
 
 ## **Boa sorte e bom código!** 🚀📘
 
