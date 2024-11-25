@@ -12,6 +12,13 @@ Você foi contratado para criar um sistema front-end que consuma dados de uma AP
 - Animes: Lista de animes com título, número de episódios, status e avaliação.
 - Jogos: Catálogo de jogos com título, plataforma, gênero e data de lançamento.
 
+ ## 📄 Documentação da API
+
+Para mais informações sobre a API, você pode acessar o repositório oficial da documentação no GitHub:
+
+👉 [Campinho Digital - API Documentation](https://github.com/campinho-digital/api-doc)
+
+
 ## ✅ Critérios de Aceitação
 
 Este projeto avalia suas habilidades em React, aplicando conceitos fundamentais e boas práticas de desenvolvimento. Certifique-se de atender a todos os critérios abaixo para garantir uma aplicação funcional e bem estruturada.
