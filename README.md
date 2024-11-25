@@ -110,6 +110,29 @@ Este projeto avalia suas habilidades em React, aplicando conceitos fundamentais 
   - Tratamento de erros.
   - Responsividade e organização do layout.
 
+ ### ✅ Checklist Básico para o Projeto
+
+- [ ] **O consumo da API funciona corretamente.**
+  - A aplicação realiza requisições `GET` e consome os dados da API sem falhas.
+
+- [ ] **Os dados são exibidos dinamicamente.**
+  - Os dados retornados pela API são renderizados dinamicamente na interface, sem elementos fixos no código.
+
+- [ ] **Mensagens amigáveis são exibidas em caso de erro.**
+  - Em situações de falha (ex.: API fora do ar ou erro de conexão), mensagens claras e amigáveis são exibidas ao usuário.
+
+- [ ] **Componentes são reutilizáveis e organizados.**
+  - Os componentes React seguem o princípio de responsabilidade única e são reutilizáveis em diferentes partes do projeto.
+
+- [ ] **Hooks foram utilizados adequadamente.**
+  - O estado da aplicação é gerenciado com `useState`.
+  - Requisições à API e outros efeitos colaterais utilizam `useEffect`.
+
+- [ ] **Estilização está clara, visualmente agradável e responsiva.**
+  - A interface é organizada e esteticamente agradável.
+  - O layout é responsivo, adaptando-se bem a dispositivos móveis, tablets e desktops.
+
+
 
 ## 🔧 Passo a Passo para Desenvolvimento: 
 
