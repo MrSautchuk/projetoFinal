@@ -1,0 +1,12 @@
+.card img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.gallery img {
+  max-width: 100px;
+  height: auto;
+  margin-right: 10px;
+}

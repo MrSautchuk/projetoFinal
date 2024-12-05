@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 ## 📋 Projeto Final
 Neste projeto final, você irá consolidar os conhecimentos adquiridos durante o curso. A proposta é criar uma aplicação funcional, com design acessível e responsivo, que apresente os dados fornecidos pela API de forma clara e interativa.
@@ -325,3 +326,13 @@ Use esses recursos para aprimorar seus conhecimentos e resolver dúvidas durante
 
 ## **Boa sorte e bom código!** 🚀📘
 
+=======
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+>>>>>>> 52693a1 (enviando codigos do projeto)
