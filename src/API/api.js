@@ -10,7 +10,7 @@ const apiClient = axios.create({
     }
 });
 
-export const fetchData = async (endpoint) => {
+export const fetchData = async function(endpoint) {
     try {
         const response = await apiClient.get(endpoint);
         return response.data;

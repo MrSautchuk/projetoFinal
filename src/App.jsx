@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { fetchData } from './api/api.js';
+import { fetchData } from './API/api.js';
 import Card from './COMPONENTS/card.jsx';
 import Header from './COMPONENTS/Header.jsx';
 import Footer from './COMPONENTS/Footer.jsx';
@@ -11,7 +11,7 @@ const App = () => {
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        const fetchDataFromApi = async () => {
+        const fetchDataFromApi = async function() {
             try {
                 const result = await fetchData('movies');
                 setData(result.data || []);
@@ -25,9 +25,10 @@ const App = () => {
         fetchDataFromApi();
     }, []);
 
-    const handleSearch = (searchTerm) => {
-        const movieIndex = data.findIndex((item) =>
+    const handleSearch = function(searchTerm) {
+        const movieIndex = data.findIndex( function(item) { 
             item.attributes.title.toLowerCase().includes(searchTerm.toLowerCase())
+            }
         );
 
         if (movieIndex !== -1) {
