@@ -12,12 +12,14 @@ const Card = ({ data }) => {
 
   const { title, description, director, genre, rating, releaseDate, poster, gallery } = data.attributes;
 
-  const openModal = (image) => {
+  const openModal = function(image) {
+    console.log("Abrindo modal com imagem:", image);
     setCurrentImage(image);
     setModalIsOpen(true);
   };
 
-  const closeModal = () => {
+  const closeModal = function() {
+    console.log("Fechando modal");
     setModalIsOpen(false);
   };
 

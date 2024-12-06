@@ -1,16 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import { fetchData } from './API/api.js';
+import { fetchData } from './API/api.js';
 import Card from './COMPONENTS/card.jsx';
 import Header from './COMPONENTS/Header.jsx';
 import Footer from './COMPONENTS/Footer.jsx';
 import './STYLES/global.css';
 
-const App = () => {
+const App = function() {
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
 
-    useEffect(() => {
+    useEffect(function() {
         const fetchDataFromApi = async function() {
             try {
                 const result = await fetchData('movies');
@@ -25,10 +26,10 @@ const App = () => {
         fetchDataFromApi();
     }, []);
 
-    const handleSearch = function(searchTerm) {
-        const movieIndex = data.findIndex( function(item) { 
-            item.attributes.title.toLowerCase().includes(searchTerm.toLowerCase())
-            }
+    const handleSearch = function(searchTerm)  {
+        const movieIndex = data.findIndex( function(item) {
+                return item.attributes.title.toLowerCase().includes(searchTerm.toLowerCase())
+        }
         );
 
         if (movieIndex !== -1) {
@@ -50,11 +51,13 @@ const App = () => {
             <main>
                 <div className="container">
                     {data.length > 0 ? (
-                        data.map((item, index) => (
+                        data.map( function(item, index) {
+                            return (
                             <div key={item.id} id={`card-${index}`}>
                                 <Card data={item} />
                             </div>
-                        ))
+                            );
+                        })
                     ) : (
                         <p>Nenhum dado disponível.</p>
                     )}
