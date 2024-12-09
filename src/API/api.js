@@ -1,7 +1,10 @@
+//Importando a biblioteca axios
 import axios from 'axios';
 
+//Definindo uma constante para armazenar o link da api
 const BASE_URL = 'https://ecom-back-strapi.onrender.com/api/';
 
+//Criando uma instancia axios que vai armazenar s configurações da api
 const apiClient = axios.create({
     baseURL: BASE_URL,
     headers: {
@@ -10,7 +13,10 @@ const apiClient = axios.create({
     }
 });
 
+//Criando e exportando uma função assincrona que vai receber o endpoint como paramentro
 export const fetchData = async function(endpoint) {
+    //O bloco try vai tentar salvar o conteudo da resposta do servidor na constante response
+    //caso não consiga o bloco catch mais lançar o erro e exibir a mensagem de erro no console
     try {
         const response = await apiClient.get(endpoint);
         return response.data;

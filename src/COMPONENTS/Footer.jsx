@@ -1,6 +1,8 @@
+//importando a biblioteca do React e o estilo do rodapé
 import React from 'react';
 import '../STYLES/Footer.css';
 
+//Footer salva a função que retorna todo o html do rodapé
 const Footer = function() {
     return (
         <footer className="footer">
@@ -17,4 +19,5 @@ const Footer = function() {
     );
 };
 
+//exportando o componente
 export default Footer;
