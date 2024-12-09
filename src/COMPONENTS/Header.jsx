@@ -17,7 +17,6 @@ function Header({ onSearch }) {
             <div className="container">
                 <h1>Catálogo de Filmes</h1>
                 <nav>
-                    {/* Formulário que usa handleSubmit para processar a busca */}
                     <form onSubmit={handleSubmit}>
                         <input
                             type="text"

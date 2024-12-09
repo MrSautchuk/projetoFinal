@@ -1,18 +1,8 @@
-
-/* Estilo da galeria de imagens */
 .gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
-}
-
-.gallery img {
-  max-width: 100px;
-  height: auto;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s;
 }
 
 .gallery img:hover {

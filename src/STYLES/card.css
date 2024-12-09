@@ -14,14 +14,6 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.card img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 10px;
-  margin-bottom: 10px;
-}
-
 .card .poster {
   max-width: 200px;
   margin-bottom: 20px;
@@ -38,26 +30,6 @@
   color: #666;
   text-align: left;
   margin-bottom: 10px;
-}
-
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-}
-
-.gallery img {
-  max-width: 100px;
-  height: auto;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s;
-  cursor: pointer;
-}
-
-.gallery img:hover {
-  transform: scale(1.1);
 }
 
 .modal {
@@ -80,7 +52,7 @@
 
 .modal-image {
   max-width: 100%;
-  max-height: 70vh;
+  max-height: 100vh;
   height: auto;
   border-radius: 10px;
 }

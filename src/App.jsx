@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { fetchData } from './API/api.js';
-import { fetchData } from './API/api.js';
 import Card from './COMPONENTS/card.jsx';
 import Header from './COMPONENTS/Header.jsx';
 import Footer from './COMPONENTS/Footer.jsx';
 import './STYLES/global.css';
+
 
 const App = function() {
     const [data, setData] = useState([]);
