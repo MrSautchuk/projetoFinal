@@ -4,6 +4,8 @@ import Modal from 'react-modal';
 import '../STYLES/card.css';
 import '../STYLES/gallery.css'
 
+Modal.setAppElement('#root');
+
 //criando uma constant Card para armazenar os dados que serão recebidos atraves de uma função
 const Card = function({ data }) {
 
