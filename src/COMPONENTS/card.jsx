@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
 import '../STYLES/card.css';
+import '../STYLES/gallery.css'
 
 //criando uma constant Card para armazenar os dados que serão recebidos atraves de uma função
 const Card = function({ data }) {
@@ -70,7 +71,7 @@ const Card = function({ data }) {
         overlayClassName="overlay" //css do overlay
       >
         {/*Botao para fechar o modal*/}
-        <button onClick={closeModal} className="close-button">Fechar</button>
+        <button onClick={closeModal} className="close-button"><strong>X</strong></button>
         {/*imagem exibida dentro do modal*/}
         <img src={currentImage} alt="Imagem ampliada" className="modal-image" />
       </Modal>

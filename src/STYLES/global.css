@@ -1,3 +1,51 @@
+body {
+  background-color: #2C3E50;
+}
+
+.container-card {
+  margin: 10px 0 0 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.cardCompletar {
+  flex: 1;
+  flex-basis: calc(33.333% - 40px);
+  max-width: calc(33.333% - 40px);
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .cardCompletar {
+    flex-basis: 40%;
+    max-width: 40%;
+  }
+}
+
+@media (max-width: 480px) {
+  .cardCompletar {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  .cardCompletar {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .cardCompletar {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+
 .gallery {
   display: flex;
   flex-wrap: wrap;

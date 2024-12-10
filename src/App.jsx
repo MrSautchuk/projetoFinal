@@ -64,12 +64,12 @@ const App = function() {
         <div>
             <Header onSearch={handleSearch} /> {/* Passa a função handleSearch como prop para o Header */}
             <main>
-                <div className="container">
+                <div className="container-card">
                     {data.length > 0 ? (
                         // Mapeia os dados recebidos e renderiza um componente Card para cada item 
                         data.map( function(item, index) {
                             return (
-                            <div key={item.id} id={`card-${index}`}>
+                            <div key={item.id} id={`card-${index}`} className='cardCompletar'>
                                 <Card data={item} />
                             </div>
                             );
