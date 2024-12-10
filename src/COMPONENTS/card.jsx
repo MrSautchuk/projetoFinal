@@ -20,7 +20,8 @@ const Card = function({ data }) {
 
   //data.atributes é desestruturado e seus dados sao salvos em variaveis
   const { title, description, director, genre, rating, releaseDate, poster, gallery } = data.attributes;
-
+  console.log(data.attributes);
+  
   //openModal recebe uma funçao com parametro que vai ser a url da imagem, define a url da umagem para ser apresentada no modal atravez do setCurrentImage e define setModalIsOpen como true para mostrar o modal
   const openModal = function(image) {
     //console.log("Abrindo modal com imagem:", image);
