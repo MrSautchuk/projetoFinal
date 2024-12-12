@@ -4,7 +4,7 @@ import axios from 'axios';
 //Definindo uma constante para armazenar o link da api
 const BASE_URL = 'https://ecom-back-strapi.onrender.com/api/';
 
-//Criando uma instancia axios que vai armazenar s configurações da api
+//Criando uma instancia axios que vai armazenar as configurações da api
 const apiClient = axios.create({
     baseURL: BASE_URL,
     headers: {
